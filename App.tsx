@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Claim, ClaimStatus } from './types';
-import { analyzeClaim } from './services/aiService';
-import { ClaimForm } from './components/ClaimForm';
-import { OfficerDashboard } from './components/OfficerDashboard';
-import { Icons } from './components/Icons';
+import { Claim, ClaimStatus } from './types.ts';
+import { analyzeClaim } from './services/aiService.ts';
+import { ClaimForm } from './components/ClaimForm.tsx';
+import { OfficerDashboard } from './components/OfficerDashboard.tsx';
+import { Icons } from './components/Icons.tsx';
 
 // Mock Data
 const MOCK_CLAIMS: Claim[] = [
